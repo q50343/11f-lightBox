@@ -159,9 +159,11 @@ ul > li > img{
 .lightbox .descr{
     width: 16rem;
 }
-.lightbox h1{
+.lightbox h1 span:nth-child(1){
     font-size: 72px;
     margin-bottom: 30vw;
+    font-weight: 600;
+    transform: translateY(-2px)
 }
 .lightbox h1 span{
     font-size: 36px;
@@ -227,7 +229,7 @@ ul > li > img{
         border: 8px solid #fff;
         margin-top: 20vh;
     }
-    .lightbox h1 {
+    .lightbox h1 span:first-child {
         font-size: 48px;
     }
     .lightbox h2 {
